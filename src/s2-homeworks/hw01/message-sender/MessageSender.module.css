@@ -23,11 +23,18 @@
     margin-left: 10px;
     background: #0066CC;
     border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    color: #FFFFFF;
 }
 
 .button:hover {
-
+    background: #0059ad;
 }
 .button:active {
-
+    background: #0056a9;
 }
