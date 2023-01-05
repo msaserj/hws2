@@ -12,7 +12,7 @@ export const pureAddUser = (name: string, setError: (err: string) => void, setNa
         addUserCallback(name)
         setName("")
     } else {
-        setError(" enter name")
+        setError("Ошибка! Введите имя.")
     }
     // если имя пустое - показать ошибку, иначе - добавить юзера и очистить инпут
 }
