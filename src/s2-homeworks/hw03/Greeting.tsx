@@ -7,7 +7,7 @@ type GreetingPropsType = {
     addUser: () => void
     onBlur: () => void
     onEnter: (e: KeyboardEvent<HTMLInputElement>) => void
-    error: string
+    error: string | null
     totalUsers: number
     lastUserName?: string
 }
