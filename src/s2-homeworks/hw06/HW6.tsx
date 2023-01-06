@@ -18,7 +18,7 @@ const HW6 = () => {
         saveState<string>('editable-span-value', value)
     }
     const restore = () => {
-        let localStore = restoreState<string>('editable-span-value', 'A')
+        let localStore = restoreState<string>('editable-span-value', '')
         setValue(localStore)
     }
 

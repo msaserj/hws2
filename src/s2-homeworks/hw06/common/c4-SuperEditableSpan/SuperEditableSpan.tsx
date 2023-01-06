@@ -66,11 +66,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                 />
             ) : (
                 <div className={s.spanBlock}>
-                    <img
-                        src={editIcon}
-                        className={s.pen}
-                        alt={'edit'}
-                    />
+
                     <span
                         onDoubleClick={onDoubleClickCallBack}
                         className={spanClassName}
@@ -80,6 +76,11 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
 
                         {children || restProps.value || defaultText}
                     </span>
+                    <img
+                        src={editIcon}
+                        className={s.pen}
+                        alt={'edit'}
+                    />
                 </div>
             )}
         </>

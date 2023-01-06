@@ -17,7 +17,6 @@
     box-sizing: border-box;
     border: 1px solid #D1D1D1;
     border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -25,7 +24,7 @@
 }
 
 .input:focus {
-    border: 1px solid #002aff;
+
 }
 
 .errorInput {
@@ -64,7 +63,6 @@
     margin: 10px 0;
     width: 143px;
     height: 17px;
-    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -76,7 +74,6 @@
     margin: 10px 0;
     width: 144px;
     height: 17px;
-    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
