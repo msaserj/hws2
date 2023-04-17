@@ -56,7 +56,6 @@ const HW13 = () => {
                 }
             })
     }
-
     return (<div id={'hw13'}>
         <h2 className={s2.hwTitle}>Homework #13</h2>
 
